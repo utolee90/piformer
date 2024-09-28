@@ -20,7 +20,8 @@ python -u run.py \
   --factor 3 \
   --enc_in 8 \
   --dec_in 8 \
-  --d_model 512 \
+  --d_model 64 \
+  --d_ff 128 \
   --c_out 8 \
   --batch_size 8\
   --des 'Exp' \
@@ -44,7 +45,8 @@ python -u run.py \
   --factor 3 \
   --enc_in 8 \
   --dec_in 8 \
-  --d_model 512 \
+  --d_model 64 \
+  --d_ff 128 \
   --c_out 8 \
   --batch_size 8\
   --des 'Exp' \
@@ -68,7 +70,8 @@ python -u run.py \
   --factor 3 \
   --enc_in 8 \
   --dec_in 8 \
-  --d_model 512 \
+  --d_model 64 \
+  --d_ff 128 \
   --c_out 8 \
   --batch_size 8\
   --des 'Exp' \

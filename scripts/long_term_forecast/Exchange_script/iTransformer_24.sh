@@ -20,9 +20,10 @@ python -u run.py \
   --factor 3 \
   --enc_in 8 \
   --dec_in 8 \
-  --d_model 128 \
   --c_out 8 \
   --batch_size 8\
+  --d_model 64 \
+  --d_ff 128 \
   --des 'Exp' \
   --itr 1 # > logs/LongForecasting/Exchange_RATE_$model_name'_'tester_$seq_len'_'$pred_len.log 
 
